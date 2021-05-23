@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="#f8f5f1"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textview_baslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Başlık Giriniz"
+        android:textColor="#ff8882"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/icerikText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textColor="#194350"
+            android:hint="Başlık Giriniz" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_kaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#E4FBFF"
+            android:textColor="#194350"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#ffc2b4"
+            android:text="Kaydet"/>
+
+        <Button
+            android:id="@+id/button_iptal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#E4FBFF"
+            android:textColor="#194350"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#ffc2b4"
+            android:text="İptal" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
