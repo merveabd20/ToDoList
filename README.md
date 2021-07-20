@@ -1,7 +1,7 @@
 # ToDoList
 2020-2021 Bahar Dönemi
 MOBİL PROGRAMLAMA -BMT-342 
-Dersi için iki kişilik takım halinde geliştirilmiş bir projedir.
+Dersi için geliştirilmiş bir projedir.
 Uygulamanın temel amacı hızlı bir şekilde not almak ve yapılacaklar listesi oluşturmaktır.
 Yapılacaklar listesi bölümü kanban tekniğine uygun olarak tasarlanmıştır.
 Yapılacaklar listesi oluşturulduğunda kanban yapısı şablonu ile gelmektedir.
